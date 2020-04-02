@@ -17,7 +17,7 @@ stickie: true
 `<code>let item = arr[index] //取得索引对应元素`  
 现在拿到了item,即数组中随机的一个元素。  
 从前面的一篇随机数组中随机取几个元素:  
-<code>
+```
     function getRandomArrayElements(arr, count) {
         var shuffled = arr.slice(0), i = arr.length, min = i - count, temp, index;
         while (i-- > min) {
@@ -30,4 +30,4 @@ stickie: true
     }
     var items = ['1','2','4','5','6','7','8','9','10'];
     console.log( getRandomArrayElements(items, 4) );
-</code>
+```
